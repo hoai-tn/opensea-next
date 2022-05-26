@@ -60,11 +60,6 @@ const nftId = () => {
   useEffect(() => {
     if (!marketPlaceModule) return
     ;(async () => {
-      const result = await marketPlaceModule.buyoutDirectListing({
-        listingId: '1',
-        quantityDesired: 1,
-      })
-      console.log(result)
       setListings(await marketPlaceModule.getAllListings())
     })()
   }, [marketPlaceModule])
