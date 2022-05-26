@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "opensea-blockchain"
+    "name": "opensea"
   },
   "api": {
-    "projectId": "0dwi3fsi",
+    "projectId": "xp38pcf6",
     "dataset": "production"
   },
   "plugins": [
